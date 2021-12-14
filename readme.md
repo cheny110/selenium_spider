@@ -7,7 +7,7 @@
 **使用说明：**
     Python环境3.xx;
     库依赖见requirement.txt
-    使用pip3 --install -r requirement.txt 一键安装所有依赖库
+    使用pip3 install -r requirement.txt 一键安装所有依赖库
     其他依赖：谷歌浏览器，对应谷歌浏览器版本的ChromeDriver。
     对于需要登录的网站，可设ZhihuThread类实例化参数authenticate为True，authUrl设为登录网页链接，然后在弹出的浏览器中输入账号或扫码等方式进行登录。登录数据将保存到对应线程的“User Data” 目录。然后，authenticate参数设为False，重新运行开始自动抓取。
     要爬取的网页所有链接经Grabber link 插件提取后放进linklists数组中，如工程中所示。
